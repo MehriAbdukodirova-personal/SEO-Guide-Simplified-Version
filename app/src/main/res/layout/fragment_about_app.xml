@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutAboutApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6" />
+
+    <TextView
+        android:id="@+id/textAboutAppId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="14sp"
+        app:autoSizeMaxTextSize="25sp"
+        app:autoSizeStepGranularity="1sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/about_app"
+        android:textAlignment="gravity"
+        android:textColor="@color/royal_blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_weight="0.5"/>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+    <TextView
+        android:id="@+id/textAboutAppDescriptionId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        android:layout_weight="1.5"
+        android:text="@string/about_app_description"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="left"
+        android:paddingLeft="14dp"
+        android:paddingStart="14dp"
+        android:paddingRight="14dp"
+        android:paddingEnd="14dp"/>
+
+    <TextView
+        android:id="@+id/textAboutAppDetails2Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="@string/about_app_description_2nd_paragraph"
+        android:textAlignment="gravity"
+        android:paddingLeft="14dp"
+        android:paddingStart="14dp"
+        android:paddingRight="14dp"
+        android:paddingEnd="14dp"/>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" />
+    <TextView
+        android:id="@+id/textViewCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.4"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="@string/credits"
+        android:textAlignment="gravity"
+        android:textSize="18sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        android:paddingLeft="12dp"
+        android:paddingStart="12dp"
+        android:paddingRight="12dp"
+        android:paddingEnd="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingRight="8dp"
+        android:paddingEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp"
+            >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:gravity="left"
+                android:text="@string/developers"
+                android:textStyle="italic"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="17sp"
+                app:autoSizeStepGranularity="1sp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/seo_consultant"
+                android:textStyle="italic"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="17sp"
+                app:autoSizeStepGranularity="1sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            android:paddingRight="8dp"
+            android:paddingEnd="8dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/mehri_abdukodirova"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="17sp"
+                app:autoSizeStepGranularity="1sp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/neda_wang"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="17sp"
+                app:autoSizeStepGranularity="1sp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/syd_faizi"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="17sp"
+                app:autoSizeStepGranularity="1sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textAboutAppDetailsVersionId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="@string/app_version_1_0_0_002"
+        android:textAlignment="gravity"
+        android:textSize="18sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform" />
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeMaxTextSize="18sp"
+        app:autoSizeStepGranularity="1sp"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:gravity="fill_horizontal"
+        android:text="@string/textView_rate_us"
+        android:paddingLeft="14dp"
+        android:paddingStart="14dp"
+        android:paddingRight="14dp"
+        android:paddingEnd="14dp"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="0.5"-->
+<!--        android:paddingLeft="12dp"-->
+<!--        android:paddingStart="12dp"-->
+<!--        android:paddingRight="12dp"-->
+<!--        android:paddingEnd="12dp">-->
+        <!--        <Button-->
+        <!--            android:id="@+id/button_rate_us_id"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="@string/rate_us"-->
+        <!--            android:textAllCaps="false"-->
+        <!--            android:paddingLeft="12dp"-->
+        <!--            android:paddingStart="12dp"-->
+        <!--            android:paddingRight="12dp"-->
+        <!--            android:paddingEnd="12dp"-->
+        <!--            android:layout_weight="4"-->
+        <!--            />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:gravity="center_horizontal"-->
+        <!--            android:text="@string/or"-->
+        <!--            android:textAlignment="gravity"-->
+        <!--            app:autoSizeMaxTextSize="18sp"-->
+        <!--            app:autoSizeMinTextSize="8sp"-->
+        <!--            app:autoSizeStepGranularity="1sp"-->
+        <!--            app:autoSizeTextType="uniform"-->
+        <!--            android:paddingLeft="8dp"-->
+        <!--            android:paddingStart="8dp"-->
+        <!--            android:paddingRight="8dp"-->
+        <!--            android:paddingEnd="8dp"-->
+        <!--            android:layout_weight="8"-->
+        <!--            />-->
+
+    <Button
+        android:id="@+id/button_leave_feedback_id"
+        android:text="@string/leave_feedback"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:paddingEnd="12dp"
+        android:paddingRight="12dp"
+        android:textAllCaps="false"
+        android:background="@color/red_scarlett"/>
+<!--    </LinearLayout>-->
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Sharp Circles SEO Guide</string>
+
+    <string name="home_bottom_navigation">Home</string>
+    <string name="request_help_bottom_navigation">Request Help</string>
+
+    <string name="sharp_circles_seo_guide">Sharp Circles SEO Guide</string>
+    <string name="website_seo_steps">Website SEO Steps</string>
+    <string name="about_app">About App</string>
+    <string name="about_sharp_circles">About Sharp Circles</string>
+    <string name="share">Share</string>
+
+    <string name="email_us">Email us</string>
+    <string name="seo_guide">SEO Guide</string>
+
+    <string name="about_sharp_circles_description_text1">Sharp Circles is a professional Australian SEO company with offices in Melbourne and Sydney. With more than 35 years\' experience in digital marketing and online business development, we specialise in providing SEO solutions for SMEs.</string>
+    <string name="about_sharp_circles_text_body_part1">We help small and medium sized businesses to improve the performance of their websites, and help them to achieve high rankings and visibility in Google\'s organic search results. </string>
+    <string name="contact_us_link">Contact us at\n<a href="https://www.sharpcircles.com.au/seo-company-australia/">https://www.sharpcircles.com.au/seo-company-australia/</a></string>
+
+    <string name="app_version_1_0_0_001">App version: 1.0.0.001</string>
+    <string name="about_app_description_text">SEO Guide was developed by Sharp Circles to help the small businesses power up their website performance by walking through and optimising via the SEO Steps.</string>
+
+    <string name="rate_us">Rate Us</string>
+    <string name="leave_feedback">Leave Feedback</string>
+    <string name="textView_rate_us">We strive to deliver a great user experience. Please feel free to leave us your feedback and improvement suggestions.</string>
+    <string name="rate">Rate</string>
+    <string name="next">Next</string>
+    <string name="or">or</string>
+    <string name="from">from</string>
+
+    <string name="sharp_circles">Sharp Circles</string>
+    <string name="logo">LOGO</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="congratulations">This app is designed to help you get better SEO results for your website.</string>
+    <string name="you_are_now_one_more_step_closer_to_a_better_seo_for_your_business">You are now one more step closer to a better SEO for your business!</string>
+    <string name="simply_follow_the_steps">Simply follow the steps in this app, and start getting higher rankings in Google search. </string>
+    <string name="let_s_go">Let\'s go</string>
+    <string name="feedback">feedback</string>
+    <string name="star_to_denote_review">Star to denote review</string>
+    <string name="rate_us_smiley">Rate us Smiley</string>
+    <string name="id">id</string>
+    <string name="previous">previous</string>
+    <string name="tip">tip</string>
+    <string name="description">description</string>
+    <string name="why">why</string>
+    <string name="how">how</string>
+    <string name="step_image">step image</string>
+    <string name="seo_steps">SEO Steps</string>
+    <string name="not_now">Not Now</string>
+    <string name="you_already_finished_all_the_seo_steps">You already finished all the SEO steps.</string>
+    <string name="now_you_can_start_all_the_steps_again_or_explore_more_functions_of_this_app_feel_free_to_contact_sharp_circles_to_get_professional_help">Now you can start all the steps again, or explore more functions of this app. Feel free to contact Sharp Circles to get professional help.</string>
+    <string name="get_it">Get it</string>
+    <string name="developed_by">developed by</string>
+
+    <string name="video_welcompage">xmnqXzOGmBQ</string>
+    <string name="about_app_description">SEO Guide was developed by Sharp Circles to help website owners achieve high rankings and visibility for their websites, in Google\'s organic search results.</string>
+    <string name="about_app_description_2nd_paragraph">Follow the SEO Steps in this app and reach the first page of Google.</string>
+    <string name="credits">Credits:</string>
+    <string name="developers">Developers</string>
+    <string name="mehri_abdukodirova">Mehri Abdukodirova</string>
+    <string name="neda_wang">Neda Wang</string>
+    <string name="seo_consultant">SEO Consultant</string>
+    <string name="syd_faizi">Syd Faizi</string>
+    <string name="app_version_1_0_0_002">App version: 1.0.0.002</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="free_seo_audit">Free SEO Audit</string>
+    <string name="seo_package">SEO Packages</string>
+
+
+</resources>

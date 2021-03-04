@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/seo_guide"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="15sp"
+            app:autoSizeMaxTextSize="45sp"
+            app:autoSizeStepGranularity="1sp"
+            android:textColor="@color/royal_blue"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_weight="3.5" />
+
+        <TextView
+            android:id="@+id/developedById"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeMaxTextSize="18sp"
+            app:autoSizeStepGranularity="1sp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/developed_by"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="10sp"
+            app:autoSizeMaxTextSize="22sp"
+            app:autoSizeStepGranularity="1sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/sharp_circles"
+            android:textAlignment="gravity"
+            android:textColor="@color/royal_blue"
+            android:textStyle="bold"
+            android:layout_weight="0.5"/>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

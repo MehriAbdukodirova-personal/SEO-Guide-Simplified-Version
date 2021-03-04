@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="royal_blue">#072a7b</color>
+    <color name="dark_royal_blue">#012060</color>
+    <color name="red_scarlett">#b6121b</color>
+    <color name="dark_red_scarlett">#630A0F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_divider">#ECECEC</color>
+</resources>
